@@ -14,6 +14,10 @@ class conversor:
 
         raiz.title("Pies a metros")  #titulo de la pagina
       
+        mainFrame= ttk.Frame(raiz) #widget transparete hasta especificar
+        mainFrame.grid(column=0, row=0)
+
+
 
 if __name__=="__main__":
     print("este el archivo principal.")
