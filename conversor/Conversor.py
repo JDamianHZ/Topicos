@@ -16,8 +16,8 @@ class conversor:
       
         mainFrame= ttk.Frame(raiz) #widget transparete hasta especificar
         mainFrame.grid(column=0, row=0)
-
-
+        piesEntry= ttk.Entry(mainFrame)
+        piesEntry.grid()
 
 if __name__=="__main__":
     print("este el archivo principal.")
